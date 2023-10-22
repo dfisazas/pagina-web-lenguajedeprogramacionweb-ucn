@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Negozio Sportivo</title>
+</head>
+<body>
+    <section id="banner">
+        <img src="img/banner.png" alt="Banner de Negozio Sportivo">
+    </section>
+
+    <nav>
+        <ul class="horizontal-menu">
+            <li><a href="#nuestra-tienda">Nuestra Tienda </a></li>
+            <li><a href="#servicios">Servicios</a></li>
+            <li><a href="#contacto">Contáctenos</a></li>
+            <li><a href="#solicitud-servicio">Solicitud de servicio</a></li>
+        </ul>
+    </nav>
+
+    <section id="nuestra-tienda">
+        <h2>Nuestra Tienda</h2>
+        <div class="about-container">
+            <div class="about">
+                <h3>Historia</h3>
+                <p>Negozio Sportivo fue fundada en 1990 por Diego Isaza. Desde entonces, hemos estado comprometidos en ofrecer a nuestros clientes la ropa deportiva más innovadora y de moda.</p>
+            </div>
+
+            <div class="about">
+                <h3>Misión</h3>
+                <p>Nuestra misión es ayudarte a alcanzar tus metas deportivas, proporcionando productos de alta calidad que te ayudarán a rendir al máximo en tu deporte favorito. Queremos ser tu aliado en el camino hacia el éxito.</p>
+            </div>
+
+            <div class="about">
+                <h3>Visión</h3>
+                <p>Nuestra visión es convertirnos en la tienda de ropa deportiva de referencia, brindando productos de calidad, un servicio excepcional y un compromiso constante con la satisfacción del cliente. Queremos inspirar a las personas a vivir un estilo de vida activo y saludable.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="servicios">
+        <h2>Servicios</h2>
+        <div class="service">
+            <h3>Personalización de productos</h3>
+            <p>Ofrecemos la posibilidad de personalizar productos con nombres o logotipos en la ropa.</p>
+            <img src="img/personalizacionropa.jpg" alt="Personalización de productos">
+        </div>
+
+        <div class="service">
+            <h3>Venta de productos</h3>
+            <img src="img/compra_original.jpg" alt="Venta de productos">
+        </div>
+
+        <div class "service">
+            <img src="img/cotizar.jpg" alt="Cotizaciones">
+            <h3>Cotizaciones</h3>
+            <p>Los clientes pueden solicitar cotizaciones para productos personalizados o compras al por mayor.</p>
+        </div>
+    </section>
+
+
+ 
+
+    <section id="historia">
+        <h2>Formulario Generador de Historias</h2>
+        <form id="infoForm">
+            <label for="nombresApellidos">Nombres y Apellidos:</label>
+            <input type="text" id="nombresApellidos" required>
+
+            <label for="apodo">Apodo:</label>
+            <input type="text" id="apodo" required>
+
+            <label for="colorCabello">Color de Cabello:</label>
+            <input type="text" id="colorCabello" required>
+
+            <label for="colorOjos">Color de Ojos:</label>
+            <input type="text" id="colorOjos" required>
+
+            <label for="edad">Edad:</label>
+            <input type="number" id="edad" required>
+
+            <label for="hobby">Hobby (solo uno):</label>
+            <input type="text" id="hobby" required>
+
+            <button type="submit">Generar Historia</button>
+        </form>
+
+        <div id="generatedStory">
+            <h2>Tu Historia:</h2>
+            <p></p>
+        </div>
+    </section>
+
+
+
+
+    <section id="contacto">
+        <h2>Contáctenos</h2>
+        <div class="about-container">
+            <div class="about">
+                <h3>Números de contacto</h3>
+                <p>Número de WhatsApp de contacto: 555-8962-5214</p>
+                <p>Número de PBX de la empresa: 000-9635-9562</p>
+                <p>Número de celular de atención al cliente: 311-111-1111</p>
+            </div>
+            <div class="about">
+                <h3>Dirección física</h3>
+                <p>Dirección física de la tienda: 615 Windmill Cir, Bowling Green, KY 42104, EE. UU.</p>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3187.535724131745!2d-86.45824299841173!3d36.973143700000016!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8865e8d91d0e19bb%3A0xc13cd3ad761fb92b!2s615%20Windmill%20Cir%2C%20Bowling%20Green%2C%20KY%2042104%2C%20EE.%20UU.!5e0!3m2!1ses!2sco!4v1696991452737!5m2!1ses!2sco" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </div>
+    </section>
+
+    <section id="solicitud-servicio">
+        <h2>Solicitud de servicio</h2>
+        <div class="about-container">
+            <div class="about">
+                <h3>Descripción del servicio</h3>
+                <p>¡Pronto estará disponible! Estamos trabajando en ello.</p>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-content">
+            <p>Síguenos en redes sociales:</p>
+            <ul class="social-links">
+                <li><a href="https://www.facebook.com" target="_blank">Facebook</a></li>
+                <li><a href="https://twitter.com" target="_blank">Twitter</a></li>
+                <li><a href="https://www.instagram.com" target="_blank">Instagram</a></li>
+            </ul>
+            <p>Contacto: info@negoziosportivo.com</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

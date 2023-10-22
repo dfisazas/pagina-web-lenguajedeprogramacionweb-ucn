@@ -1,0 +1,198 @@
+/* Estilo general */
+body {
+    background: #191919; /* Fondo gris oscuro */
+    color: #fff; /* Texto blanco */
+    font-family: Arial, sans-serif;
+    margin: 0; /* Elimina margen predeterminado */
+}
+
+/* Banner principal */
+#banner {
+    background: url('img/banner.png') center/cover;
+    text-align: center;
+    color: #fff;
+    padding: 0;
+}
+
+/* Menú horizontal */
+.horizontal-menu {
+    list-style: none;
+    padding: 40px 0;
+    text-align: center;
+    background: #333; /* Fondo gris oscuro */
+}
+
+.horizontal-menu li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.horizontal-menu a {
+    text-decoration: none;
+    color: #fff;
+    font: bold 2em Arial, sans-serif;
+    padding: 20px 20px;
+    border-radius: 5px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.horizontal-menu a:hover {
+    background: #0074e4; /* Fondo azul al pasar el mouse */
+}
+
+/* Títulos de sección */
+section h2 {
+    color: #fff;
+    font: 2em Arial, sans-serif;
+    margin: 20px 0;
+    text-align: center;
+}
+
+/* Elementos de historia, misión y visión */
+.about-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.about {
+    flex: 1;
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.7); /* Fondo semitransparente */
+    border-radius: 5px;
+    margin: 10px;
+}
+
+.about h3 {
+    font: 1.5em Arial, sans-serif;
+    color: #fff;
+    text-align: center;
+}
+
+/* Sección de Servicios */
+#servicios {
+    background: #333;
+    padding: 40px 0;
+    text-align: center;
+}
+
+/* Títulos de servicios */
+#servicios h3 {
+    color: #fff;
+    font: 1.5em Arial, sans-serif;
+    margin: 20px 0;
+}
+
+/* Contenedores de servicios */
+.service {
+    flex: 1;
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.7);
+    border-radius: 5px;
+    margin: 10px;
+    text-align: center;
+}
+
+/* Texto dentro de los contenedores de servicios */
+.service p {
+    color: #fff;
+    font: 1em Arial, sans-serif;
+}
+
+/* Secciones de Contáctenos y Solicitud de servicio */
+#contacto, #solicitud-servicio {
+    background: #333;
+    padding: 40px 0;
+    text-align: center;
+}
+
+/* Títulos de sección en Contáctenos y Solicitud de servicio */
+#contacto h2, #solicitud-servicio h2 {
+    color: #fff;
+    font: 2em Arial, sans-serif;
+    margin: 20px 0;
+    text-align: center;
+}
+
+/* Contenedores en Contáctenos y Solicitud de servicio */
+#contacto .about, #solicitud-servicio .about {
+    flex: 1;
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.7);
+    border-radius: 5px;
+    margin: 10px;
+    text-align: center;
+}
+
+/* Texto dentro de los contenedores en Contáctenos y Solicitud de servicio */
+#contacto .about p, #solicitud-servicio .about p {
+    color: #fff;
+    font: 1em Arial, sans-serif;
+}
+
+
+
+
+
+
+
+
+
+
+/* Estilos para el formulario y la historia */
+#historia {
+    background: #333;
+    padding: 40px 0;
+    text-align: center;
+}
+
+#historia h2 {
+    color: #fff;
+    font: 2em Arial, sans-serif;
+    margin: 20px 0;
+    text-align: center;
+}
+
+#infoForm {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; /* Centra horizontalmente el formulario */
+    align-items: center; /* Centra verticalmente el formulario */
+    text-align: center;
+    margin: 20px 700px; /* Añade margen alrededor del formulario */
+}
+
+#infoForm label {
+    color: #fff;
+    font: 1em Arial, sans-serif;
+    margin: 10px;
+    width: 100%;
+}
+
+#infoForm input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin: 10px;
+    width: 100%;
+}
+
+#infoForm button {
+    background: #0074e4;
+    color: #fff;
+    font: bold 1em Arial, sans-serif;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#infoForm button:hover {
+    background: #0059a4;
+}
+
+#generatedStory {
+    color: #fff;
+    font: 1em Arial, sans-serif;
+    margin: 20px 700px;
+}

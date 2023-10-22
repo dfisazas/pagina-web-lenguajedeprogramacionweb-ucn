@@ -12,11 +12,13 @@ document.addEventListener("DOMContentLoaded", function() {
         const edad = document.getElementById("edad").value;
         const hobby = document.getElementById("hobby").value;
 
-        const story = `${nombresApellidos}, también conocido como ${apodo}, con cabello de color ${colorCabello} y ojos de color ${colorOjos}, estaba emocionado por su próximo cumpleaños. A sus ${edad} años, planeaba celebrar de una manera inolvidable: invitó a todos sus amigos a una fiesta en su casa.
+        const story = `${nombresApellidos}, también conocido como ${apodo}, con cabello ${colorCabello} y ojos ${colorOjos}, decidió aprovechar su tiempo a los ${edad} años de edad practicando su hobby favorito: ${hobby}. Un día soleado, mientras disfrutaba de ${hobby}, notó algo inusual en el horizonte. Al acercarse, se dio cuenta de que era un misterioso mapa que prometía aventuras inimaginables. 
 
-        Durante la fiesta, ${nombresApellidos} y sus amigos se divirtieron jugando al fútbol en el jardín. Luego, disfrutaron de una deliciosa comida preparada por ${nombresApellidos} y su madre. Mientras todos reían y disfrutaban, de repente, una sorpresa inesperada: apareció un mago que realizó trucos mágicos asombrosos.
+        Sin dudarlo, ${nombresApellidos} se embarcó en una emocionante búsqueda. Siguiendo el mapa, se aventuró en la selva, escaló montañas, cruzó desiertos y se encontró con personajes asombrosos. Cada desafío superado le brindaba nuevas habilidades y experiencias inolvidables. 
 
-        Después de la actuación del mago, la fiesta continuó con juegos, música y baile. Todos se unieron para cantar el feliz cumpleaños y partir el pastel. La noche fue mágica y llena de alegría, creando recuerdos que ${nombresApellidos} atesoraría para siempre.`;
+        En su camino, ${nombresApellidos} demostró valentía al rescatar a un grupo de exploradores atrapados, ingenio al resolver enigmas ancestrales y generosidad al compartir sus provisiones con aquellos en necesidad.
+
+        La aventura de ${nombresApellidos} no solo lo llevó a lugares remotos, sino también a descubrir su propio potencial. La historia de ${nombresApellidos} es un testimonio de coraje, determinación y el espíritu de la aventura.`;
 
         generatedStory.textContent = story;
      });
